@@ -1,6 +1,6 @@
 <script>
 
-  function wrongFunction() 
+  function functionwrong() 
 {
   <p>Correct answer</p>
 }

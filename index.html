@@ -65,23 +65,23 @@ p {
 
 
 
-<button class="button button1 onClick=functionwrong()">James Goslinge</button>
+<button class="button button1 onClick={functionwrong}">James Goslinge</button>
 
-<button class="button button2 onclick=functionwrong()">Anders Hejlsberg</button>
-<button class="button button3 onclick=functioncorrect()">Dennis Ritche</button>
-<button class="button button4 onclick=functionwrong()">Bjarne Stroustrup</button>
+<button class="button button2 onClick={functionwrong}">Anders Hejlsberg</button>
+<button class="button button3 onClick={functioncorrect}">Dennis Ritche</button>
+<button class="button button4 onClick={functionwrong}">Bjarne Stroustrup</button>
  
 
  
  <script>
 function functionwrong() {
-  alert("Correct Answer !");
+  alert("wrong ");
 }
 </script>
  
  <script>
 function functioncorrect() {
-  document.getElementById("demo").innerHTML = "Correct";
+ alert("Correct answer !");
 }
 </script>
 

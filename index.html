@@ -64,7 +64,25 @@ p {
 </style>
 
 
-<button class="button button1">James Goslinge</button>
-<button class="button button2">Anders Hejlsberg</button>
-<button class="button button3">Dennis Ritche</button>
-<button class="button button4">Bjarne Stroustrup</button>
+
+<button class="button button1 onclick=functionwrong()">James Goslinge</button>
+<button class="button button2 onclick=functionwrong()">Anders Hejlsberg</button>
+<button class="button button3 onclick=functioncorrect()">Dennis Ritche</button>
+<button class="button button4 onclick=functionwrong()">Bjarne Stroustrup</button>
+ 
+ <p id="demo"></p>
+ 
+ <script>
+function functionwrong() {
+  document.getElementById("demo").innerHTML = "Wrong";
+}
+</script>
+ 
+ <script>
+function functioncorrect() {
+  document.getElementById("demo").innerHTML = "Correct";
+}
+</script>
+
+
+ 

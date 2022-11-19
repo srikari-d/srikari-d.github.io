@@ -67,21 +67,22 @@ p {
 
 <button class="button button1" onClick="functionwrong()" id="btn1">James Goslinge</button>
 
-<button class="button button2" onClick="functionwrong()" id="btn1" >Anders Hejlsberg</button>
-<button class="button button3 onClick=functioncorrect()" id="btn2">Dennis Ritche</button>
-<button class="button button4 onClick=functionwrong()" id="btn1">Bjarne Stroustrup</button>
+<button class="button button2" onClick="functionwrong()" id="btn2" >Anders Hejlsberg</button>
+<button class="button button3 onClick=functioncorrect()" id="btn3">Dennis Ritche</button>
+<button class="button button4 onClick=functionwrong()" id="btn4">Bjarne Stroustrup</button>
  
 
  
  <script>
 function functionwrong() {
   document.getElementById("btn1").innerHTML="Wrong answer";
+ <p style="color:red;"><b>Correct answer is Dennis Ritche</b></p>
 }
 </script>
  
  <script>
 function functioncorrect() {
- document.getElementById("btn2").innerHTML="Wrong answer";
+ document.getElementById("btn4").innerHTML="Correct answer";
 }
 </script>
 

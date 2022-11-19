@@ -65,7 +65,7 @@ p {
 
 
 
-<button class="button button1 onClick=functionwrong()">James Goslinge</button>
+<button class="button button1" onClick="functionwrong()" id="btn1">James Goslinge</button>
 
 <button class="button button2 onClick=functionwrong()">Anders Hejlsberg</button>
 <button class="button button3 onClick=functioncorrect()">Dennis Ritche</button>
@@ -75,13 +75,13 @@ p {
  
  <script>
 function functionwrong() {
-  alert("wrong ");
+  document.getElementById("btn1").innerHTML="Wrong answer";
 }
 </script>
  
  <script>
 function functioncorrect() {
- alert("Correct answer !");
+
 }
 </script>
 

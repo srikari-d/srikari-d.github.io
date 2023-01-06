@@ -1,95 +1,37 @@
-<body style="background-color:powderblue;">
-<style>
-h1 {
- text-align:center;
- font-size:50px
-}
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="panel">
+	
+		<div class="question-container" id="question">
+			Question goes here.
+			
+			
+		</div>
+		<div class="option-container">
+			<button class="option" onclick="" id="op1" >option1</button>
+	
+			<button class="option" id="op2" >option2</button>
+	
+			<button class="option" id="op3">option3</button>
+	
+			<button class="option" id="op4">option4</button>
+		</div>
+		<div class="navigation">
+			<button class="evaluate">Evaluate</button>
+			<button class="next">Next</button>
+		</div>
+		<div class="result">
 
-
-<h1>C language Quiz</h1>
-<p style="color:red;"><b>Who invented C language ?</b></p>
-
-
-<style>
-p {
- text-align:center;
-  font-size: 40px;
-}
-</style>
-
-
-
-<style>
-
-
-.button {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.button1 
- {
-  background-color:DarkSlateBlue;
-  position:absolute;
-  top:200px;
-  left:300px;
- } 
-.button2 
- {
-  background-color: DarkSlateBlue;
-  position:absolute;
-  top:200px;
-  right:300px;
- } 
-.button3 
- {
-  background-color: DarkSlateBlue;
-  position:absolute;
-  top:300px;
-  left:300px;
- }
-.button4 {
- background-color: DarkSlateBlue;
- position:absolute;
-  top:300px;
-  right:300px;
- }
- 
-</style>
-
-<button class="button button1" onClick="functionwrong()" id="btn1">James Goslinge</button>
-
-<button class="button button2" onClick="functionwrong()" id="btn2" >Anders Hejlsberg</button>
-<button class="button button3" onClick="functioncorrect()" id="btn3">Dennis Ritche</button>
-<button class="button button4" onClick="functionwrong()" id="btn4">Bjarne Stroustrup</button>
- 
-
- 
- <script>
-function functionwrong() {
-  document.getElementById("btn1").innerHTML="Wrong answer";
- document.getElementById("btn2").innerHTML="Wrong answer";
- document.getElementById("btn4").innerHTML="Wrong answer";
- 
-}
-  
-  
-</script>
- 
- <script>
-function functioncorrect() {
- document.getElementById("btn3").innerHTML="Correct answer";
-}
-</script>
- 
-
-
-
- 
+		</div>
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>

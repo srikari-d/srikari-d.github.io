@@ -1,5 +1,4 @@
 body{
-	
 	padding: 0;
 	margin: 0;	
 	width:100vw;
@@ -13,30 +12,34 @@ p{
 	margin-top: 0px;
 }
 .panel{
-	height: 80vh;
+	
+	height: 75vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
+	justify-content: space-between;
+
 }
 .question-container{
-	margin: 10px;
+	margin: 8px;
 	padding: 5px;
 	width: 80vw;
 	height: 10vh;
-	background-color: cornsilk;
-	font-size: x-large;
+	background-color: transparent;
+	font-size: 35px;
 	text-align: center;
-	
+	font-style:bold;
+	font-family: 'Comic Sans MS', cursive;
 }
 .option-container{
 	display: flex;
 	justify-content: space-around;
 	margin: 10px;
+	margin-top:20px;
 	padding: 5px;
-	width: 80vw;
+	width: 70vw;
 	height: 10vh;
-	background-color: 		ivory;
+	background-color:transparent;
 		
 }
 .option{	
@@ -51,20 +54,20 @@ p{
 	background-color: lightgoldenrodyellow;
 }
 .navigation{
-	width: 80vw;
+	width: 70vw;
 	height: 10vh;
 	margin: 10px;
 	padding: 5px;
 	display: flex;
 	justify-content: space-around;
-	background-color:cornsilk;
 }
 
 .evaluate,.next{
-	width:30vw;
+	width:25vw;
 	height: 8vh;
 	padding: 5px;
 	font-size: larger;
+	margin-top:25px;
 }
 .evaluate{
 	
